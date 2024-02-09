@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 # Read the JSON file containing the articles
-with open('news_json.json', 'r', encoding='utf-8') as f:
+with open('news_jsn.json', 'r', encoding='utf-8') as f:
     articles = json.load(f)
 
 # Group the articles by cluster number
